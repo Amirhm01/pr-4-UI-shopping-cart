@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="LogIn.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <div class="imgdiv">
+    </div>
+    <div class="Login" id="login-div">
+        <a href="../index.html" id="back-icon-a"><i class="fa fa-arrow-left  backicon"></i></a>
+        <div class="form-log">
+            <p class="title-log"> Sign in </p>
+
+            <input type="text" name="" id="name-log" placeholder="Enter Your Name">
+            <p class="errortext" id="errortext-name">Your name is not acceptable !</p>
+            <input type="email" name="" id="email-log" placeholder="Enter Your Email">
+            <p class="errortext" id="errortext-email">Your email is not acceptable !</p>
+            <input type="number" name="" id="phnumber-log" placeholder="Phone number">
+            <p class="errortext" id="errortext-phnumber">Your mobile number is not correct !</p>
+            <input type="password" name="" id="pass1-log" placeholder="password">
+            <input type="password" name="" id="pass2-log" placeholder="repeat password">
+            <p class="errortext" id="errortext-password">Your password must not be less than 8 digits long ! <br>Or your
+                passwords are not the same !</p>
+            <button class="Sign-in-logpage" id="sign-link">Sign in</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="information" id="information-div">
+
+        <a href="../index.html" id="back-icon-a"><i class="fa fa-arrow-left  backicon"></i></a>
+        <div class="porof">
+        </div>
+        <div class="edit-profile">
+            <label for="edit-prof" class="edit-prof-button">Edit</label>
+            <input type="file" id="edit-prof">
+        </div>
+        <p class="user-name" id="username">amir</p>
+        <p class="user-email" id="user-email">1234@gmail.com</p>
+        <p class="user-ph-number" id="user-phnumber">09059135060</p>
+
+        <button class="edit-information" id="editpage-button"> Edit information
+            <i class="fa fa-edit"></i>
+        </button>
+
+
+    </div>
+
+    <div class="editpage" id="editpage">
+        <p class="title-edit-page"> Edit Your information </p>
+        <span class="close-editpage" id="close-editpage">&times;</span>
+        <div class="editpage-inp">
+            <p class="inp-text">User Name :</p>
+            <input type="text" name="" id="username-edit"><br>
+            <p class="inp-text">Phone Number :</p>
+            <input type="number" name="" id="phone-number-edit"><br>
+            <p class="inp-text">Email :</p>
+            <input type="email" name="" id="email-edit">
+
+        </div>
+        <button class="savebutton" id="savebutton">Save</button>
+    </div>
+    <script src="LogIn.js"></script>
+</body>
+
+</html>

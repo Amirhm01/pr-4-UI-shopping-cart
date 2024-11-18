@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy More</title>
+</head>
+
+<body>
+    <div class="AllPage">
+        <i class="fa fa-bars bars" id="bars-menu" onclick="barsfunction()"></i>
+
+
+        <div class="LeftDiv" id="LeftDiv-id">
+            <i class="fa fa-close closemenu" id="close-menu" onclick="closemunufunction()"></i>
+            <h1 class="TitltName">BuyMore</h1>
+            <div class="underline"></div>
+
+            <ul class="LeftDiv-List">
+                <li> <i class="fa fa-flash LeftList-Icon"></i>
+                    Popular Products</li>
+                <li><i class="fa fa-circle-o LeftList-Icon"></i>
+                    Explore New</li>
+                <li><i class="fa fa-shopping-cart LeftList-Icon"></i>
+                    Clothing and Shoes</li>
+                <li><i class="fa fa-gift LeftList-Icon"></i>
+                    Gifts and Living</li>
+                <li> <i class="fa fa-lightbulb-o LeftList-Icon"></i>
+                    Inspiration</li>
+            </ul>
+            <hr class="hr1-leftlist">
+            <!-- ----------------------------------------------------------------- -->
+            <div class="quickactions">
+
+                <p class="QuickActions-Text-LeftList">Quick actions</p><br>
+                <div class="QuickActions-line1">
+                    <button class="PlusIcon-LeftList PlusIcon-1-LeftList">+</button>
+                    <p class="text-of-plus-LeftList text-of-plus1-LeftList">Request for product</p>
+                </div>
+                <div class="QuickActions-line2">
+                    <button class="PlusIcon-LeftList PlusIcon-2-LeftList">+</button>
+                    <p class="text-of-plus-LeftList text-of-plus2-LeftList">Add member</p>
+                </div>
+            </div>
+
+            <hr class="hr2-leftlist">
+
+            <!-- ----------------------------------------------------------------- -->
+            <div class="lastorder-div">
+                <p class="LastOrders-Text-LeftList">Last orders</p>
+                <p class="LastOrders-Text-LeftList OrderNum-LeftList">10</p>
+            </div>
+            <p class="SeeAll-LeftList">See all</p>
+
+            <i class="fa fa-sign-out sign-out-icon-LeftList">
+                <p class=" LogOut-LeftList">Log out</p>
+            </i>
+        </div>
+        <!-- -----------------------------------header------------------------------ -->
+
+        <header>
+            <div class="Header">
+                <div class="switch">
+                    <div class="switch-Div">
+                    </div>
+                    <button id="dashboard">Dashboard</button>
+                    <button id="cart">Cart</button>
+                </div>
+                <p class="Explore-Text">Explore</p>
+
+                <button class="header-button" id="all-button">
+                    <i class="fa fa-clone"></i>
+                    All
+                </button>
+                <button class="header-button" id="male-button">
+                    <i class="fa fa-male"></i>
+                    Men
+                </button>
+                <button class="header-button" id="female-button">
+                    <i class="fa fa-female"></i>
+                    Women
+                </button>
+
+                <div class="UserPhoto" title="change photo">
+                </div>
+                <a href="LogIn/LogIn.html   " class="user" id="LogIn">Sign in</a>
+
+
+                <button class="search-icon" id="SaerchButton"><i class="fa fa-search"></i></button>
+                <input type="text" class="saerch-inp" id="saerch-inp">
+            </div>
+        </header>
+
+
+        <!-- -----------------------------------main body------------------------------ -->
+        <div class="mainbody" id="mainbody">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+            <div class="item6"></div>
+            <div class="item7"></div>
+        </div>
+
+        <div class="cart-div" id="cart-div">
+
+        </div>
+
+        <div class="leftdiv-bars">
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
